@@ -1,0 +1,60 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+
+# Ignore logs and temporary files
+*.log
+*.tlog
+*.tmp
+*.temp
+
+# Ignore compiled files
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Ignore coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore generated files
+Generated/
+
+# Ignore Rider IDE files
+.idea/
+*.iml
+
+# Ignore other IDE-specific files
+*.vs/
+.vscode/
+
+# Ignore files created by dotnet restore
+project.lock.json
+project.fragment.lock.json
+
+# Ignore global tools
+.dotnet_tool/
+
+# Ignore test results
+TestResults/
+
+# Ignore node_modules (if using JavaScript/TypeScript)
+node_modules/
+
+# Ignore temporary files
+~$*
